@@ -29,3 +29,20 @@ nav{
     align-items: center;
     padding: 0 50px;
 }
+.logo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.since{
+    font-size: 15px;
+}
+.logo-name{
+    font-size: 20px;
+}
+.logo:hover{
+    cursor: pointer;
+    color: #F9A602;
+    transition: 0.3s;
+}
