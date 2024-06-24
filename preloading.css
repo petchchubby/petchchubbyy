@@ -1,4 +1,4 @@
-
+ 
 .lds-ring,
 .lds-ring div {
   box-sizing: border-box;
@@ -42,7 +42,5 @@
   100% {
     transform: rotate(360deg);
   }
-}
-
-
+} 
 
