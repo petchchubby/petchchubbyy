@@ -104,3 +104,77 @@ body{
     font-size: 13px;
     
 }
+.hero-container{
+    margin: 0 450px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.hero-content{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 200px;
+}
+.one{
+    margin-bottom: 30px;
+    color: #F9A602;
+    font-size: 16px;
+}
+.two{
+    color: #ccd6f6;
+    font-size: 50px;
+    font-weight: bold;
+}
+.three{
+    color: #8892b0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.four{
+    color: #7d87a4;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#concentrix::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F9A602;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+#concentrix:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+#concentrix {
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+.two p {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 1.5s steps(25, end), blink-caret 1s step-end infinite;
+    white-space: nowrap;
+    font-family: monospace;
+    border-right: 2px solid #f9a602;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #f9a602 }
+}
