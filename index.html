@@ -21,20 +21,20 @@
         <div id="pageContent" class="content fadecontent">
             <!-- nav bar -->
             <nav id="navbar">
-                <div class="logo">
+                <div class="logo" id="returnToTop">
                     <!-- logo -->
-                    <span class="logo-name">petchchubby</span
+                   <span class="logo-name">petchchubby</span
                     ><span class="since">since 1996</span>
                 </div>
                 <ul class="nav-menu">
-                    <li id="about"><a href="">About</a></li>
-                    <li id="work"><a href="">Work Experience</a></li>
-                    <li id="social"><a href="">Social Media</a></li>
-                    <li id="resume"><a href="">Resume</a></li>
+                    <li id="about"><a href="#about-container">About</a></li>
+                    <li id="work"><a href="#work-container">Work Experience</a></li>
+                    <li id="social"><a href="#social-container">Social Media</a></li>
+                    <li id="resume"><a href="asset/apiwat-chuyintra-resume.pdf" target="_blank">Resume</a></li>
                 </ul>
             </nav>
             <!-- hero container -->
-            <div class="hero-container">
+            <div class="hero-container" >
                 <div class="hero-content">
                     <div class="one"><p>Hi, my name is</p></div>
                     <div class="two"><p>Apiwat Chuyintra.</p></div>
@@ -58,7 +58,8 @@
                     </div>
                 </div>
             </div>
-            <div class="about-container">
+            <!-- about me container -->
+            <div class="about-container" id="about-container">
                 <div class="about-content">
                     <p class="about-header">About me</p>
                     <p class="about-detail">
@@ -91,6 +92,132 @@
                         style="width: auto; height: 300px"
                     />
                 </div>
+            </div>
+            <!-- work container -->
+            <div class="work-container" id="work-container">
+                <div class="work-wrapper">
+                    <div><p class="work-header">Work Experiences</p></div>
+                    <ul class="timeline">
+                        <!-- Item 1 -->
+                        <li>
+                            <div class="direction-r">
+                                <div class="flag-wrapper">
+                                    <span class="flag">Scalia Ventures</span>
+                                    <span class="time-wrapper"
+                                        ><span
+                                            class="time"
+                                            style="font-weight: bold"
+                                            >2023</span
+                                        ></span
+                                    >
+                                </div>
+                                <div class="desc">
+                                    <ul
+                                        style="
+                                            color: white;
+                                            font-size: 15px;
+                                            color: #f9a602;
+                                        "
+                                    >
+                                        <li>
+                                            Troubleshoot Hardware, software and
+                                            applications.
+                                        </li>
+                                        <li>
+                                            Front-end develop for client site.
+                                        </li>
+                                        <li>Asset management and tracking.</li>
+                                        <li>Account Management.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Item 2 -->
+                        <li>
+                            <div class="direction-l">
+                                <div class="flag-wrapper">
+                                    <span class="flag">Graduated</span>
+                                    <span class="time-wrapper"
+                                        ><span
+                                            class="time"
+                                            style="font-weight: bold"
+                                            >2024</span
+                                        ></span
+                                    >
+                                </div>
+                                <div class="desc">
+                                    <p
+                                        style="
+                                            color: #f9a602;
+                                            font-size: 18px;
+                                            font-weight: bold;
+                                        "
+                                    >
+                                        Ramkhamhaeng University<br /><p style="color: white; font-size: 15px; margin-top: 20px;">Bachelor of Political Science Program
+                                            in Politics and Government.
+                                            </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Item 3 -->
+                        <li>
+                            <div class="direction-r">
+                                <div class="flag-wrapper">
+                                    <span class="flag">Concentrix Co.,Ltd</span>
+                                    <span class="time-wrapper"
+                                        ><span class="time" style="font-weight: bold;"
+                                            >2024 - present</span
+                                        ></span
+                                    >
+                                </div>
+                                <div class="desc">
+                                   <ul  style="
+                                   color: white;
+                                   font-size: 15px;
+                                   color: #f9a602;
+                               "><li>Troubleshoot for client both Rider/Driver. (English/Thai).</li>
+                                   <li>Follow up case from another team.</li></ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- social container -->
+            <div class="mycat-container" id="social-container">
+                <div class="mycat-header">Social media</div>
+                <div class="cat-wrapper">
+                    <div class="meetang"><img src="asset/meetang.png" alt="meetang" style="width: auto; height: 400px; padding-top: 40px;"></div>
+                    <div class="gallery"><a href="http://line.me/ti/p/~@petchchubby" target="_blank"
+                        ><img
+                          src="asset/line.png"
+                          alt="file not found"
+                          style="height: 68px; height: 68px"
+                      /></a>
+                      <a href="https://www.facebook.com/petchjahub/" target="_blank"
+                        ><img
+                          src="asset/facebook.png"
+                          alt="file not found"
+                          style="height: 68px; height: 68px"
+                      /></a>
+                      <a href="https://www.instagram.com/petchchubby/" target="_blank"
+                        ><img
+                          src="asset/instagram.png"
+                          alt="file not found"
+                          style="height: 68px; height: 68px"
+                      /></a>
+                      <a href="https://maps.app.goo.gl/VzjFqCpZHhdQipNi8" target="_blank"
+                        ><img
+                          src="asset/map.png"
+                          alt="file not found"
+                          style="height: 68px; height: 68px"
+                      /></a></div>
+                </div>
+               
+                
             </div>
         </div>
         <script src="app.js"></script>
