@@ -2,6 +2,8 @@
     margin: 0;
     box-sizing: border-box;
     background-color: #0a192f;
+    font-family: SpaceMono-Regular;
+    padding: 0;
 }
 
 .content{
