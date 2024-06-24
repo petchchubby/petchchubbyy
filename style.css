@@ -3,6 +3,9 @@
     box-sizing: border-box;
     background-color: #0a192f;
 }
+.site-container{
+    display: none;
+}
 nav{
     height: 100px;
     display: flex;
