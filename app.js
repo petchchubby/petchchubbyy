@@ -3,5 +3,5 @@ function activeShowPage(){
 }
 function showPage() {
     document.getElementById('preLoader').style.display = 'none';
-    document.getElementById('siteContainer').style.display = 'block';
+    document.getElementById('pageContent').style.display = 'block';
 }

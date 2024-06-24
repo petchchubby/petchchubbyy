@@ -3,9 +3,23 @@
     box-sizing: border-box;
     background-color: #0a192f;
 }
-.site-container{
+
+.content{
     display: none;
+
 }
+
+.fadecontent{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+    
+}
+
+
 nav{
     height: 100px;
     display: flex;
