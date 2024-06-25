@@ -172,3 +172,178 @@ ul{
     position: sticky;
     top: 0;
 }
+
+
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 480px) {
+   
+    body{
+    width: 480px;
+  
+}
+.logo{
+    padding: 3rem;
+}
+.content{
+    width: 480px;
+}
+
+    .hero-container {
+        margin: 100px 0 0 0;
+        height: auto;
+        margin-top: 100px;
+        max-width: 480px;
+    }
+    .about-container{
+        max-width: 480px;
+    }
+    .work-container{
+        max-width: 480px;
+        height: auto;
+    }
+    .mycat-container{
+        max-width: 480px;
+    }
+    .nav-menu{
+        display: none;
+    }
+
+    .hero-content {padding: 4rem;
+        
+        
+    }
+    .one{
+        font-size: 10px;
+    }
+    .two {
+        font-size: 20px; /* Further decrease font size */
+    }
+
+    .three {
+        font-size: 10px; /* Further decrease font size */
+    }
+    .four{
+        font-size: 10px;
+    }
+
+    .nav-menu li {
+        margin-left: 0.5rem; /* Reduce margin between menu items */
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+        .about-header{
+            font-size: 20px;
+        }
+        .about-content{
+            margin: 0px;
+            
+            padding: 2rem;
+        }
+        .about-header::after{
+            display: none;
+        }
+        .about-detail{
+            font-size: 10px;
+        }
+
+       .learn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     
+       }
+       .HTML{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .CSS{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .JAVASCRIPT{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .WORDPRESS{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-photo {
+        width: 250px !important;
+        height: 250px !important; 
+    }
+
+    .work-container {
+        margin: 0 10px; /* Further reduce margin */
+        padding-top: 50px; /* Reduce padding */
+    }
+
+    .mycat-container {
+        margin: 0 10px; /* Further reduce margin */
+        padding-top: 50px; /* Reduce padding */
+    }
+
+    .direction-l .flag:before,
+    .direction-r .flag:before {
+        top: -10px; /* Adjust position of flag */
+    }
+
+    .time-wrapper {
+        font-size: 0.6em; /* Decrease font size */
+    }
+.desc{
+    background-color: transparent;
+}
+.mycat-container{
+    margin-top: 900px;
+    
+}
+.cat-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    padding: 1rem;
+}
+.desc ul li {
+    font-size: 12px;
+    color: white;
+    
+    
+}
+#ram{
+    font-size: 10px;
+}
+
+}
+
+
+
+
+#navbar.scroll {
+    background-color: black; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+}
