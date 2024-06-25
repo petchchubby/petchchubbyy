@@ -1,5 +1,5 @@
 function activeShowPage(){
-    let content = setTimeout(showPage, 3000);
+    let content = setTimeout(showPage, 3500);
 }
 function showPage() {
     document.getElementById('preLoader').style.display = 'none';
