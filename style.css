@@ -181,12 +181,12 @@ body{
 }
 
 .about-container{
-    margin: 0 450px;
+    margin: 150px 450px;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+ 
 }
 .about-content{
     margin-left: 150px;
@@ -275,7 +275,6 @@ body{
 
 .work-container{
     margin: 0 450px;
-    height: 600px;
     display: flex;
     align-items: center;
 
@@ -646,3 +645,7 @@ body{
     
 }
 
+.profile-photo{
+    height: 300px;
+    width: auto;
+}
